@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ],
+  "env": {
+    "APOLLO_API_KEY": "@apollo_api_key",
+    "ANTHROPIC_API_KEY": "@anthropic_api_key",
+    "GAMMA_API_KEY": "@gamma_api_key",
+    "GMAIL_CLIENT_ID": "@gmail_client_id",
+    "GMAIL_CLIENT_SECRET": "@gmail_client_secret",
+    "LOOM_LINK": "@loom_link",
+    "VERCEL_URL": "@vercel_url"
+  }
+}
